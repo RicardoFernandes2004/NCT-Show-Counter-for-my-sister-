@@ -14,7 +14,7 @@ main{
     background-size: cover;
     overflow-y: auto;
     overflow-x: hidden;
-    box-shadow: black 5px;
+    box-shadow: 0 5px 7px black;
 }
 
 footer{
