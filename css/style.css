@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+main{
+    height: 100vh;
+    background-image: url(/assets/adaea178baea54eba75489aa88c736e9.jpg);
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: black 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+footer a:hover{
+    color: #1eff00;
+
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img_box{
+    min-width: 200px;
+    min-height: 200px;
+    
+}
+
+svg{
+    transition: all 0.3s;
+
+}
+
+svg:hover{
+    transform: scale(1.1);
+}
+
+.tour_name{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #1eff00;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.153);
+    border-radius: 30px;
+
+}
+
+.title{
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: "Kings", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #1eff00;
+    font-size: 200px;
+}
+
+
+.title p{
+    transition: all 0.5s;
+}
+
+.timer_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+}
+
+.timer_container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1eff00;
+}
+
+.timer_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 99%;
+    height: 99%;
+    background-color: rgb(37, 37, 37);
+}
+
+#timer{
+    font-family: "cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1eff00;
+    font-size: 100px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .title p{
+        font-size: 100px;
+    }
+
+    .tour_name{
+        font-size: 30px;
+    }
+}
